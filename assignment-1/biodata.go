@@ -6,18 +6,18 @@ import (
 	"strconv"
 )
 
+/*
+	Function to show selected friend biodata based on program arguments
+	run
+		go run main.go [friends_number int]
+*/
+
 type Friend struct {
 	nama                      string
 	alamat                    string
 	pekerjaan                 string
 	alasan_pilih_kelas_golang string
 }
-
-/*
-	function to show selected friend data based on program arguments
-	run
-		go run main.go [friends_number int]
-*/
 
 func main() {
 	// define friends data
