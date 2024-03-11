@@ -19,6 +19,18 @@ type Friend struct {
 	alasan_pilih_kelas_golang string
 }
 
+// type Friend struct {
+// 	Nama                      string
+// 	Alamat                    string
+// 	Pekerjaan                 string
+// 	AlasanPilihKelasGolang string
+// }
+
+// students []Students
+// func init() {students = ...}
+
+// **buat lebih simpel
+
 func main() {
 	// define friends data
 	friends := []Friend{
