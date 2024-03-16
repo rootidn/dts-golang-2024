@@ -20,3 +20,5 @@ type Item struct {
 	Quantity    int    `json:"quantity"`
 	Order_ID    uint
 }
+
+// kunci jawaban https://go.dev/play/p/zEjdZOM_mjl
