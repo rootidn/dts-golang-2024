@@ -113,6 +113,9 @@ func getUpdatedData() (DataWrapper, error) {
 }
 
 func checkCondition(tipe int, status int) string {
+	// 0 for water
+	// 1 for wind
+
 	if tipe == 0 {
 		switch {
 		case status < 5:
